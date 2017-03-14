@@ -48,7 +48,7 @@ if [ -z "$setup" ] ; then setup="TRUE" ; fi
 if [ -z "$terminate" ] ; then terminate="TRUE" ; fi
 
 # move count to instance_count
-if [ -z "$count" ] ; then count=1 ; fi
+if [ -z "$count" ] ; then count=5 ; fi
 instance_count=$count
 
 LOCAL_HOME="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
